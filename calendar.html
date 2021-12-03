@@ -425,7 +425,7 @@
         
         {
           title          : 'FIL3',
-          start          : new Date(y, m, 2),
+          start          : new Date(y, m, 2, 9),
           backgroundColor: '#f56954', //red
           borderColor    : '#f56954', //red
           allDay         : true
@@ -450,8 +450,8 @@
           borderColor    : '#3c8dbc' //Primary (light-blue)
         }
       ],
-      editable  : true,
-      droppable : true, // this allows things to be dropped onto the calendar !!!
+      editable  : false,
+      droppable : false, // this allows things to be dropped onto the calendar !!!
       drop      : function(info) {
         // is the "remove after drop" checkbox checked?
         if (checkbox.checked) {
